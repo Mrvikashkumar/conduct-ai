@@ -82,7 +82,7 @@ li{
 /** Main styling */
 /******************** Header ********************/
 header{
-  background: url('/img/header-bg.png');
+  background: url('../img/header-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
