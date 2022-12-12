@@ -61,6 +61,11 @@ a{
 li{
   list-style: none;
 }
+input, textarea{
+  outline: none;
+  border: 1px solid var(--color-1);
+  width: 100%;
+}
 
 /** Utility class */
 .container{
@@ -73,6 +78,9 @@ li{
 }
 .flex-1{
   flex: 1;
+}
+.flex-wrap{
+  flex-wrap: wrap;
 }
 .space-between{
   justify-content: space-between;
@@ -460,6 +468,70 @@ header .card-1{
   width: 40px;
   cursor: pointer;
 }
+
+/******************** section - 3 ********************/
+.section-4 .cards-bg{
+  width: 465px;
+  height: 425px;
+}
+form.card{
+  width: 372px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .1);
+}
+.card-title{
+  background-color: var(--main-bg-color);
+  color: var(--light);
+  font-size: 20px;
+  padding: 15px;
+}
+.input-field{
+  padding: 15px;
+}
+.border-bottom{
+  border-bottom: 1px solid #ddd;
+}
+form input, textarea{
+  padding: 5px;
+}
+form p{
+  /* font-size: 20px; */
+  color: #636363;
+}
+.category-1 label, .category-2 label, .category-3 label{
+  font-size: 12px;
+  padding-left: 5px;
+}
+.category-1 input, .category-2 input, .category-3 input{
+  width: 10px;
+  height: 10px;
+}
+.software-img img{
+  width: 30px;
+  height: 30px;
+  background-color: var(--card-bg-color);
+  padding: 5px;
+  /* border-radius: 50%; */
+}
+.date{
+  width: 104px;
+  height: 30px;
+}
+.time{
+  width: 75px;
+  height: 30px;
+}
+form textarea{
+  width: 188px;
+  height: 100px;
+}
+.add-note-btn{
+  text-align: right;
+  padding: 15px;
+}
+.add-note-btn .btn{
+  background-color: var(--main-bg-color);
+}
+
 
 /** JavaScript classes  */
 .show-dropdown-menu span{
